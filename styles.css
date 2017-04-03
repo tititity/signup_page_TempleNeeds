@@ -1,0 +1,50 @@
+body{
+	background-image: url("image/bg_001.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.content{
+	color:white;
+	margin: 5%;
+	text-align: center;
+	
+}
+form{
+	text-align: left;
+	padding: 2%
+}
+footer{
+	 position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	text-align: center;
+	padding: 1em;
+	color : white;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type = submit]{
+	text-align: center;
+	margin: 2%;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+input[type = password]{
+	width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
